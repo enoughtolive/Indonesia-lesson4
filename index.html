@@ -305,173 +305,35 @@
 
   <script>
     const words = [
-      {
-        badge: "단어",
-        indo: "enak",
-        koPron: "에낙",
-        zhPron: "埃纳克",
-        meaning: "맛있는 / 好吃"
-      },
-      {
-        badge: "단어",
-        indo: "pedas",
-        koPron: "쁘다스",
-        zhPron: "佩达斯",
-        meaning: "매운 / 辣"
-      },
-      {
-        badge: "단어",
-        indo: "suka",
-        koPron: "수까",
-        zhPron: "苏卡",
-        meaning: "좋아하다 / 喜欢"
-      },
-      {
-        badge: "단어",
-        indo: "makan",
-        koPron: "마깐",
-        zhPron: "马坎",
-        meaning: "먹다 / 吃"
-      },
-      {
-        badge: "단어",
-        indo: "minum",
-        koPron: "미눔",
-        zhPron: "米努姆",
-        meaning: "마시다 / 喝"
-      },
-      {
-        badge: "단어",
-        indo: "air",
-        koPron: "아이르",
-        zhPron: "艾尔",
-        meaning: "물 / 水"
-      },
-      {
-        badge: "단어",
-        indo: "kopi",
-        koPron: "꼬삐",
-        zhPron: "科皮",
-        meaning: "커피 / 咖啡"
-      },
-      {
-        badge: "단어",
-        indo: "teh",
-        koPron: "떼",
-        zhPron: "特",
-        meaning: "차 / 茶"
-      },
-      {
-        badge: "단어",
-        indo: "panas",
-        koPron: "빠나스",
-        zhPron: "帕纳斯",
-        meaning: "뜨거운 / 热"
-      },
-      {
-        badge: "단어",
-        indo: "dingin",
-        koPron: "딩인",
-        zhPron: "丁因",
-        meaning: "차가운 / 冷"
-      }
+      { badge: "단어", indo: "enak", koPron: "에낙", zhPron: "埃纳克", meaning: "맛있는 / 好吃" },
+      { badge: "단어", indo: "pedas", koPron: "쁘다스", zhPron: "佩达斯", meaning: "매운 / 辣" },
+      { badge: "단어", indo: "suka", koPron: "수까", zhPron: "苏卡", meaning: "좋아하다 / 喜欢" },
+      { badge: "단어", indo: "makan", koPron: "마깐", zhPron: "马坎", meaning: "먹다 / 吃" },
+      { badge: "단어", indo: "minum", koPron: "미눔", zhPron: "米努姆", meaning: "마시다 / 喝" },
+      { badge: "단어", indo: "air", koPron: "아이르", zhPron: "艾尔", meaning: "물 / 水" },
+      { badge: "단어", indo: "kopi", koPron: "꼬삐", zhPron: "科皮", meaning: "커피 / 咖啡" },
+      { badge: "단어", indo: "teh", koPron: "떼", zhPron: "特", meaning: "차 / 茶" },
+      { badge: "단어", indo: "panas", koPron: "빠나스", zhPron: "帕纳斯", meaning: "뜨거운 / 热" },
+      { badge: "단어", indo: "dingin", koPron: "딩인", zhPron: "丁因", meaning: "차가운 / 冷" }
     ];
 
     const dailyExpressions = [
-      {
-        badge: "일상 표현",
-        indo: "Enak.",
-        koPron: "에낙",
-        zhPron: "埃纳克",
-        meaning: "맛있어요 / 好吃"
-      },
-      {
-        badge: "일상 표현",
-        indo: "Pedas?",
-        koPron: "쁘다스?",
-        zhPron: "佩达斯？",
-        meaning: "매워요? / 辣吗"
-      },
-      {
-        badge: "일상 표현",
-        indo: "Suka?",
-        koPron: "수까?",
-        zhPron: "苏卡？",
-        meaning: "좋아요? / 喜欢吗"
-      },
-      {
-        badge: "일상 표현",
-        indo: "Mau makan?",
-        koPron: "마우 마깐?",
-        zhPron: "毛 马坎？",
-        meaning: "먹을래요? / 要吃吗"
-      },
-      {
-        badge: "일상 표현",
-        indo: "Mau minum?",
-        koPron: "마우 미눔?",
-        zhPron: "毛 米努姆？",
-        meaning: "마실래요? / 要喝吗"
-      },
-      {
-        badge: "일상 표현",
-        indo: "Air dingin?",
-        koPron: "아이르 딩인?",
-        zhPron: "艾尔 丁因？",
-        meaning: "찬물이에요? / 是冷水吗"
-      },
-      {
-        badge: "일상 표현",
-        indo: "Teh panas.",
-        koPron: "떼 빠나스",
-        zhPron: "特 帕纳斯",
-        meaning: "뜨거운 차 / 热茶"
-      },
-      {
-        badge: "일상 표현",
-        indo: "Kopi enak.",
-        koPron: "꼬삐 에낙",
-        zhPron: "科皮 埃纳克",
-        meaning: "맛있는 커피 / 好喝的咖啡"
-      }
+      { badge: "일상 표현", indo: "Enak.", koPron: "에낙", zhPron: "埃纳克", meaning: "맛있어요 / 好吃" },
+      { badge: "일상 표현", indo: "Pedas?", koPron: "쁘다스?", zhPron: "佩达斯？", meaning: "매워요? / 辣吗" },
+      { badge: "일상 표현", indo: "Suka?", koPron: "수까?", zhPron: "苏卡？", meaning: "좋아요? / 喜欢吗" },
+      { badge: "일상 표현", indo: "Mau makan?", koPron: "마우 마깐?", zhPron: "毛 马坎？", meaning: "먹을래요? / 要吃吗" },
+      { badge: "일상 표현", indo: "Mau minum?", koPron: "마우 미눔?", zhPron: "毛 米努姆？", meaning: "마실래요? / 要喝吗" },
+      { badge: "일상 표현", indo: "Air dingin?", koPron: "아이르 딩인?", zhPron: "艾尔 丁因？", meaning: "찬물이에요? / 是冷水吗" },
+      { badge: "일상 표현", indo: "Teh panas.", koPron: "떼 빠나스", zhPron: "特 帕纳斯", meaning: "뜨거운 차 / 热茶" },
+      { badge: "일상 표현", indo: "Kopi enak.", koPron: "꼬삐 에낙", zhPron: "科皮 埃纳克", meaning: "맛있는 커피 / 好喝的咖啡" }
     ];
 
     const gospelExpressions = [
-      {
-        badge: "전도 표현",
-        indo: "(Per)misi.",
-        koPron: "(뻐르)미시",
-        zhPron: "(波尔)米西",
-        meaning: "실례합니다 / 打扰一下"
-      },
-      {
-        badge: "전도 표현",
-        indo: "Kami orang Kristen.",
-        koPron: "까미 오랑 크리스텐",
-        zhPron: "卡米 欧朗 克里斯滕",
-        meaning: "저희는 그리스도인입니다 / 我们是基督徒"
-      },
-      {
-        badge: "전도 표현",
-        indo: "Kami ingin berbagi kabar baik.",
-        koPron: "까미 잉인 버르바기 까바르 바이크",
-        zhPron: "卡米 英银 伯尔巴吉 卡巴尔 巴伊克",
-        meaning: "저희는 기쁜 소식을 나누고 싶어요 / 我们想分享好消息"
-      },
-      {
-        badge: "전도 표현",
-        indo: "Kami sedang memberitakan Injil.",
-        koPron: "까미 쓰당 멤버리따깐 인질",
-        zhPron: "卡米 瑟当 门伯里塔坎 音吉尔",
-        meaning: "저희는 전도를 하고 있어요 / 我们正在传福音"
-      },
-      {
-        badge: "전도 표현",
-        indo: "Apa agama Anda?",
-        koPron: "아빠 아가마 안다",
-        zhPron: "阿帕 阿加玛 安达",
-        meaning: "당신의 종교는 무엇인가요? / 你的宗教是什么？"
-      },
+      { badge: "전도 표현", indo: "(Per)misi.", koPron: "(뻐르)미시", zhPron: "(珀尔)米西", meaning: "실례합니다 / 打扰一下" },
+      { badge: "전도 표현", indo: "Kami orang Kristen.", koPron: "까미 오랑 크리스텐", zhPron: "卡米 欧朗 克里斯滕", meaning: "저희는 그리스도인입니다 / 我们是基督徒" },
+      { badge: "전도 표현", indo: "Kami ingin berbagi kabar baik.", koPron: "까미 잉인 버르바기 까바르 바이크", zhPron: "卡米 英银 伯尔巴吉 卡巴尔 巴伊克", meaning: "저희는 기쁜 소식을 나누고 싶어요 / 我们想分享好消息" },
+      { badge: "전도 표현", indo: "Kami sedang memberitakan Injil.", koPron: "까미 쓰당 멤버리따깐 인질", zhPron: "卡米 瑟当 门伯里塔坎 音吉尔", meaning: "저희는 전도를 하고 있어요 / 我们正在传福音" },
+      { badge: "전도 표현", indo: "Apa agama Anda?", koPron: "아빠 아가마 안다", zhPron: "阿帕 阿加玛 安达", meaning: "당신의 종교는 무엇인가요? / 你的宗教是什么？" },
       {
         badge: "전도 표현",
         indo: "Manusia memiliki tubuh dan roh.",
@@ -508,145 +370,31 @@
           { text: "kepada Tuhan", label: "끄빠다 뚜한 / 克帕达 图汉" }
         ]
       },
-      {
-        badge: "전도 표현",
-        indo: "Yesus mengasihi Anda.",
-        koPron: "예수스 멍아시히 안다",
-        zhPron: "耶稣斯 孟阿西希 安达",
-        meaning: "예수님은 당신을 사랑해요 / 耶稣爱你"
-      },
-      {
-        badge: "전도 표현",
-        indo: "Saya berharap Anda mengenal Yesus.",
-        koPron: "사야 버르하랍 안다 멍으날 예수스",
-        zhPron: "萨亚 贝尔哈拉普 安达 默额纳尔 耶稣斯",
-        meaning: "당신이 예수를 알기를 소망합니다 / 我希望你认识耶稣"
-      }
+      { badge: "전도 표현", indo: "Yesus mengasihi Anda.", koPron: "예수스 멍아시히 안다", zhPron: "耶稣斯 孟阿西希 安达", meaning: "예수님은 당신을 사랑해요 / 耶稣爱你" },
+      { badge: "전도 표현", indo: "Saya berharap Anda mengenal Yesus.", koPron: "사야 버르하랍 안다 멍으날 예수스", zhPron: "萨亚 贝尔哈拉普 安达 默额纳尔 耶稣斯", meaning: "당신이 예수를 알기를 소망합니다 / 我希望你认识耶稣" }
     ];
 
     const explainItems = [
-      {
-        badge: "설명",
-        indo: "Kami",
-        koPron: "까미",
-        zhPron: "卡米",
-        meaning: "저희, 우리 / 我们"
-      },
-      {
-        badge: "설명",
-        indo: "orang Kristen",
-        koPron: "오랑 크리스텐",
-        zhPron: "欧朗 克里斯滕",
-        meaning: "그리스도인 / 基督徒"
-      },
-      {
-        badge: "설명",
-        indo: "kabar baik",
-        koPron: "까바르 바이크",
-        zhPron: "卡巴尔 巴伊克",
-        meaning: "기쁜 소식 / 好消息"
-      },
-      {
-        badge: "설명",
-        indo: "memberitakan Injil",
-        koPron: "멤버리따깐 인질",
-        zhPron: "门伯里塔坎 音吉尔",
-        meaning: "복음을 전하다 / 传福音"
-      },
-      {
-        badge: "설명",
-        indo: "agama",
-        koPron: "아가마",
-        zhPron: "阿加玛",
-        meaning: "종교 / 宗教"
-      },
-      {
-        badge: "설명",
-        indo: "roh",
-        koPron: "로흐",
-        zhPron: "罗赫",
-        meaning: "영 / 灵魂"
-      },
-      {
-        badge: "설명",
-        indo: "berasal dari",
-        koPron: "버라살 다리",
-        zhPron: "贝拉萨尔 达里",
-        meaning: "~로부터 오다 / 来自"
-      },
-      {
-        badge: "설명",
-        indo: "harus",
-        koPron: "하루스",
-        zhPron: "哈鲁斯",
-        meaning: "반드시 ~해야 하다 / 必须"
-      },
-      {
-        badge: "설명",
-        indo: "kembali",
-        koPron: "끔발리",
-        zhPron: "克姆巴利",
-        meaning: "돌아가다 / 回去"
-      },
-      {
-        badge: "설명",
-        indo: "melalui",
-        koPron: "멀랄루이",
-        zhPron: "梅拉卢伊",
-        meaning: "~을 통해 / 通过"
-      },
-      {
-        badge: "설명",
-        indo: "mengasihi",
-        koPron: "멍아시히",
-        zhPron: "孟阿西希",
-        meaning: "사랑하다 / 爱"
-      },
-      {
-        badge: "설명",
-        indo: "mengenal",
-        koPron: "멍으날",
-        zhPron: "默额纳尔",
-        meaning: "알다, 알게 되다 / 认识"
-      }
+      { badge: "설명", indo: "Kami", koPron: "까미", zhPron: "卡米", meaning: "저희, 우리 / 我们" },
+      { badge: "설명", indo: "orang Kristen", koPron: "오랑 크리스텐", zhPron: "欧朗 克里斯滕", meaning: "그리스도인 / 基督徒" },
+      { badge: "설명", indo: "kabar baik", koPron: "까바르 바이크", zhPron: "卡巴尔 巴伊克", meaning: "기쁜 소식 / 好消息" },
+      { badge: "설명", indo: "memberitakan Injil", koPron: "멤버리따깐 인질", zhPron: "门伯里塔坎 音吉尔", meaning: "복음을 전하다 / 传福音" },
+      { badge: "설명", indo: "agama", koPron: "아가마", zhPron: "阿加玛", meaning: "종교 / 宗教" },
+      { badge: "설명", indo: "roh", koPron: "로흐", zhPron: "罗赫", meaning: "영 / 灵魂" },
+      { badge: "설명", indo: "berasal dari", koPron: "버라살 다리", zhPron: "贝拉萨尔 达里", meaning: "~로부터 오다 / 来自" },
+      { badge: "설명", indo: "harus", koPron: "하루스", zhPron: "哈鲁斯", meaning: "반드시 ~해야 하다 / 必须" },
+      { badge: "설명", indo: "kembali", koPron: "끔발리", zhPron: "克姆巴利", meaning: "돌아가다 / 回去" },
+      { badge: "설명", indo: "melalui", koPron: "멀랄루이", zhPron: "梅拉卢伊", meaning: "~을 통해 / 通过" },
+      { badge: "설명", indo: "memberitakan Injil", koPron: "멤버리따깐 인질", zhPron: "门伯里塔坎 音吉尔", meaning: "복음을 전하다 / 传福音" },
+      { badge: "설명", indo: "mengenal", koPron: "멍으날", zhPron: "默额纳尔", meaning: "알다, 알게 되다 / 认识" }
     ];
 
     const dialogues = [
-      {
-        badge: "짧은 대화",
-        indo: "(Per)misi.",
-        koPron: "(뻐르)미시",
-        zhPron: "(波尔)米西",
-        meaning: "실례합니다 / 打扰一下"
-      },
-      {
-        badge: "짧은 대화",
-        indo: "Kami orang Kristen.",
-        koPron: "까미 오랑 크리스텐",
-        zhPron: "卡米 欧朗 克里斯滕",
-        meaning: "저희는 그리스도인입니다 / 我们是基督徒"
-      },
-      {
-        badge: "짧은 대화",
-        indo: "Kami ingin berbagi kabar baik.",
-        koPron: "까미 잉인 버르바기 까바르 바이크",
-        zhPron: "卡米 英银 伯尔巴吉 卡巴尔 巴伊克",
-        meaning: "저희는 기쁜 소식을 나누고 싶어요 / 我们想分享好消息"
-      },
-      {
-        badge: "짧은 대화",
-        indo: "Apa agama Anda?",
-        koPron: "아빠 아가마 안다",
-        zhPron: "阿帕 阿加玛 安达",
-        meaning: "당신의 종교는 무엇인가요? / 你的宗教是什么？"
-      },
-      {
-        badge: "짧은 대화",
-        indo: "Yesus mengasihi Anda.",
-        koPron: "예수스 멍아시히 안다",
-        zhPron: "耶稣斯 孟阿西希 安达",
-        meaning: "예수님은 당신을 사랑해요 / 耶稣爱你"
-      }
+      { badge: "짧은 대화", indo: "(Per)misi.", koPron: "(뻐르)미시", zhPron: "(珀尔)米西", meaning: "실례합니다 / 打扰一下" },
+      { badge: "짧은 대화", indo: "Kami orang Kristen.", koPron: "까미 오랑 크리스텐", zhPron: "卡米 欧朗 克里斯滕", meaning: "저희는 그리스도인입니다 / 我们是基督徒" },
+      { badge: "짧은 대화", indo: "Kami ingin berbagi kabar baik.", koPron: "까미 잉인 버르바기 까바르 바이크", zhPron: "卡米 英银 伯尔巴吉 卡巴尔 巴伊克", meaning: "저희는 기쁜 소식을 나누고 싶어요 / 我们想分享好消息" },
+      { badge: "짧은 대화", indo: "Apa agama Anda?", koPron: "아빠 아가마 안다", zhPron: "阿帕 阿加玛 安达", meaning: "당신의 종교는 무엇인가요? / 你的宗教是什么？" },
+      { badge: "짧은 대화", indo: "Yesus mengasihi Anda.", koPron: "예수스 멍아시히 안다", zhPron: "耶稣斯 孟阿西希 安达", meaning: "예수님은 당신을 사랑해요 / 耶稣爱你" }
     ];
 
     function createCards(data, targetId) {
@@ -687,7 +435,7 @@
 
     createCards(words, "wordGrid");
     createCards(dailyExpressions, "dailyGrid");
-    createCards(eventExpressions, "eventGrid");
+    createCards(gospelExpressions, "gospelGrid");
     createCards(explainItems, "explainGrid");
     createCards(dialogues, "dialogueGrid");
 
@@ -721,36 +469,12 @@
     }
 
     const quizData = [
-      {
-        question: "nasi 뜻은 무엇일까요?",
-        options: ["밥", "고기", "국"],
-        answer: "밥"
-      },
-      {
-        question: "kopi 뜻은 무엇일까요?",
-        options: ["차", "커피", "물"],
-        answer: "커피"
-      },
-      {
-        question: "acara 뜻은 무엇일까요?",
-        options: ["시간", "행사", "장소"],
-        answer: "행사"
-      },
-      {
-        question: "boleh 뜻은 무엇일까요?",
-        options: ["좋아하다", "~해도 된다", "시작하다"],
-        answer: "~해도 된다"
-      },
-      {
-        question: "Mari ikut 뜻은 무엇일까요?",
-        options: ["같이 먹어요", "함께 참여해요", "집에 가요"],
-        answer: "함께 참여해요"
-      },
-      {
-        question: "Acara dimulai pukul 09.30 뜻은 무엇일까요?",
-        options: ["행사가 9시 30분에 시작해요", "행사가 오후에 있어요", "행사가 여기서 열려요"],
-        answer: "행사가 9시 30분에 시작해요"
-      }
+      { question: "Enak 뜻은 무엇일까요?", options: ["맛있는", "매운", "차가운"], answer: "맛있는" },
+      { question: "Suka 뜻은 무엇일까요?", options: ["먹다", "좋아하다", "마시다"], answer: "좋아하다" },
+      { question: "Permisi 뜻은 무엇일까요?", options: ["안녕하세요", "실례합니다", "감사합니다"], answer: "실례합니다" },
+      { question: "Apa agama Anda? 뜻은 무엇일까요?", options: ["당신은 어디서 왔나요?", "당신의 종교는 무엇인가요?", "당신은 누구인가요?"], answer: "당신의 종교는 무엇인가요?" },
+      { question: "Yesus mengasihi Anda 뜻은 무엇일까요?", options: ["예수님은 당신을 사랑해요", "하나님은 사랑입니다", "당신은 예수를 믿나요"], answer: "예수님은 당신을 사랑해요" },
+      { question: "Kami orang Kristen 뜻은 무엇일까요?", options: ["저희는 그리스도인입니다", "저희는 친구입니다", "저희는 행사에 갑니다"], answer: "저희는 그리스도인입니다" }
     ];
 
     let current = 0;
@@ -780,7 +504,6 @@
       }
 
       updateProgress();
-
       const q = quizData[current];
       questionBox.textContent = q.question;
       resultBox.textContent = "";
@@ -796,7 +519,6 @@
       const buttons = document.querySelectorAll(".answer-btn");
 
       buttons.forEach(btn => btn.disabled = true);
-
       buttons.forEach(btn => {
         if (btn.textContent === q.answer) {
           btn.classList.add("correct");
